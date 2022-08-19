@@ -1,7 +1,0 @@
-{
-  "name": "nuevotabs",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
