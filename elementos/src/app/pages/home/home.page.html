@@ -8,14 +8,19 @@
   <ion-text color="medium">
     <h1 class="centrar">Este es el home</h1>
   </ion-text>
-  <ion-button expand="block" color="success" size="large" fill="solid">
+  <ion-button expand="block" color="success" size="large" fill="solid" routerLink="/pagina2">
     <ion-icon slot="start" name="bar-chart-outline"></ion-icon>
     Página 2</ion-button>
   
-  <ion-button expand="block" size="large">
+  <ion-button expand="block" size="large" routerLink="/pagina3">
     
     <ion-icon slot="start" name="basketball-outline"></ion-icon>
     Pagina 3
+  </ion-button>
+
+  <ion-button color="warning" expand="block" size="large" routerLink="/pagina3">
+    <ion-icon slot="start" name="beer-outline"></ion-icon>
+    Click me
   </ion-button>
 
 </ion-content>
